@@ -1,4 +1,7 @@
 package com.test.threadsafety;
+
+import com.threadsafety.Friends;
+
 /**
  * Ce modificari trebuie sa aducem la clasa Friends pentru a rezolva problema de liveness
  * folosind interfata Lock din java.util.concurrent.locks mai exact:
@@ -6,7 +9,7 @@ package com.test.threadsafety;
  */
 public class Test4 {
     public void test(){
-
+        Friends.executeFriends();
     }
 
 }

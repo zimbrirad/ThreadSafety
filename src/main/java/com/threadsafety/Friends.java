@@ -23,7 +23,7 @@ public class Friends {
     }
 
     //saracii...
-    public void executeFriends() {
+    public static void executeFriends() {
         final Friend alphonse =
                 new Friend("Alphonse");
         final Friend gaston =

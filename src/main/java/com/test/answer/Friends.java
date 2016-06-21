@@ -62,7 +62,7 @@ public class Friends {
                 this.name, bower.getName());
     }
     //saracii...
-    public void executeFriends() {
+    public static void executeFriends() {
         final Friends alphonse =
                 new Friends("Alphonse");
         final Friends gaston =
