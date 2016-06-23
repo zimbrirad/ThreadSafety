@@ -29,14 +29,6 @@ public class ThreadInterference {
     void  increment() {
         count = count + 1;
     }
-    synchronized void incrementSync(){
-        count = count + 1;
-    }
-    void incrementSyncBlock(){
-        synchronized(this) {
-            count = count + 1;
-        }
-    }
 }
 final class TaskInterference implements Runnable {
     ThreadInterference threadInterference;
